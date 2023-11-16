@@ -15,8 +15,8 @@
 
 :root {
 	--my-text-color: #f1f1f1;
-	--my-primary-color: #435c76;
-	--my-secondary-color: #6f93d0;
+	--my-primary-color: #6284ab;
+	--my-secondary-color: #3c6390;
 	--my-tertiary-color: #81a7e8;
 }
 
@@ -27,6 +27,7 @@ body {
 .my-navbar {
 	background-color: var(--my-primary-color);;
 	margin-top: 2em;
+	max-width: 70em;
 }
 
 .my-navbar-text {
