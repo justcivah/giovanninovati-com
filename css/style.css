@@ -83,3 +83,15 @@ body {
 	color: var(--my-secondary-text-color);
 	margin-top: -0.3em;
 }
+
+.my-social-logo {
+	fill: var(--my-tertiary-color);
+	width: 24px;
+	height: 24px;
+	transition: transform 0.2s;
+}
+
+.my-social-logo:hover {
+	fill: var(--my-secondary-color);
+	transform: scale(1.15);
+}
