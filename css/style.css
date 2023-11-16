@@ -1,16 +1,20 @@
 @font-face {
 	font-family: geologica-regular;
-	src: url(../fonts/geologica-regular.ttf);
+	src: url(../fonts/manrope-regular.ttf);
 }
 
 @font-face {
 	font-family: geologica-semibold;
-	src: url(../fonts/geologica-semibold.ttf);
+	src: url(../fonts/manrope-semibold.ttf);
 }
 
 @font-face {
 	font-family: geologica-black;
-	src: url(../fonts/geologica-black.ttf);
+	src: url(../fonts/manrope-bold.ttf);
+}
+
+:root {
+	--my-text-color: #222222;
 }
 
 .my-navbar {
@@ -20,29 +24,28 @@
 
 .my-navbar-text {
 	font-family: geologica-semibold;
-	font-size: 1.35em;
+	font-size: 1.25em;
 	letter-spacing: -0.01em;
 }
 
 .my-link {
 	text-decoration: none;
 	position: relative;
-	color: #000000;
+	color: var(--my-text-color);
 }
 
 .my-link::before {
 	content: "";
 	position: absolute;
-	bottom: -2px;
 	left: 0;
 	right: 0;
-	height: 2px;
-	background-color: #FF9900;
+	height: 1.35em;
+	background-color: rgba(255, 153, 0, 0.35);
 	transform: scaleX(0);
 	transform-origin: center;
-	transition: transform 0.3s;
+	transition: transform 0.2s;
 }
 
 .my-link:hover::before {
-	transform: scaleX(1);
+	transform: scaleX(1.15);
 }
