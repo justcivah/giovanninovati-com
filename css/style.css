@@ -14,38 +14,47 @@
 }
 
 :root {
-	--my-text-color: #222222;
+	--my-text-color: #f1f1f1;
+	--my-primary-color: #435c76;
+	--my-secondary-color: #6f93d0;
+	--my-tertiary-color: #81a7e8;
+}
+
+body {
+	background-color: var(--my-primary-color);
 }
 
 .my-navbar {
-	background-color: #ffffff;
+	background-color: var(--my-primary-color);;
 	margin-top: 2em;
 }
 
 .my-navbar-text {
 	font-family: geologica-semibold;
 	font-size: 1.25em;
-	letter-spacing: -0.01em;
+	letter-spacing: -0.015em;
 }
 
 .my-link {
 	text-decoration: none;
 	position: relative;
 	color: var(--my-text-color);
+	z-index: 1;
 }
 
-.my-link::before {
+.my-link::after {
 	content: "";
 	position: absolute;
 	left: 0;
 	right: 0;
-	height: 1.35em;
-	background-color: rgba(255, 153, 0, 0.35);
+	height: 1.4em;
+	background-color: var(--my-secondary-color);
 	transform: scaleX(0);
 	transform-origin: center;
 	transition: transform 0.2s;
+	z-index: -1;
 }
 
-.my-link:hover::before {
+.my-link:hover::after {
 	transform: scaleX(1.15);
 }
