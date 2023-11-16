@@ -1,0 +1,48 @@
+@font-face {
+	font-family: geologica-regular;
+	src: url(../fonts/geologica-regular.ttf);
+}
+
+@font-face {
+	font-family: geologica-semibold;
+	src: url(../fonts/geologica-semibold.ttf);
+}
+
+@font-face {
+	font-family: geologica-black;
+	src: url(../fonts/geologica-black.ttf);
+}
+
+.my-navbar {
+	background-color: #ffffff;
+	margin-top: 2em;
+}
+
+.my-navbar-text {
+	font-family: geologica-semibold;
+	font-size: 1.35em;
+	letter-spacing: -0.01em;
+}
+
+.my-link {
+	text-decoration: none;
+	position: relative;
+	color: #000000;
+}
+
+.my-link::before {
+	content: "";
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	right: 0;
+	height: 2px;
+	background-color: #FF9900;
+	transform: scaleX(0);
+	transform-origin: center;
+	transition: transform 0.3s;
+}
+
+.my-link:hover::before {
+	transform: scaleX(1);
+}
