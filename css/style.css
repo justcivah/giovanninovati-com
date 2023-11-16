@@ -1,23 +1,14 @@
 @font-face {
-	font-family: geologica-regular;
-	src: url(../fonts/manrope-regular.ttf);
-}
-
-@font-face {
-	font-family: geologica-semibold;
-	src: url(../fonts/manrope-semibold.ttf);
-}
-
-@font-face {
-	font-family: geologica-black;
-	src: url(../fonts/manrope-bold.ttf);
+	font-family: noto-sans-georgian;
+	src: url(../fonts/noto-sans-georgian.ttf);
 }
 
 :root {
-	--my-text-color: #f1f1f1;
-	--my-primary-color: #6284ab;
-	--my-secondary-color: #3c6390;
-	--my-tertiary-color: #81a7e8;
+	--my-primary-text-color: #1c1c1c;
+	--my-secondary-text-color: #64748b;
+	--my-primary-color: #ffffff;
+	--my-secondary-color: #3a79c7;
+	--my-tertiary-color: #94a3b8;
 }
 
 body {
@@ -33,24 +24,26 @@ body {
 .my-centered-parent-div {
 	height: 100vh;
 	display: flex;
+	margin-top: -2.5em;
 }
 
 .my-navbar {
-	background-color: var(--my-primary-color);;
+	background-color: var(--my-primary-color);
 	margin-top: 2em;
 	max-width: 70em;
 }
 
 .my-navbar-text {
-	font-family: geologica-semibold;
-	font-size: 1.25em;
+	font-family: noto-sans-georgian;
+	font-weight: 600;
+	font-size: 1.2em;
 	letter-spacing: -0.015em;
 }
 
 .my-link {
 	text-decoration: none;
 	position: relative;
-	color: var(--my-text-color);
+	color: var(--my-primary-text-color);
 	z-index: 1;
 }
 
@@ -59,7 +52,7 @@ body {
 	position: absolute;
 	left: 0;
 	right: 0;
-	height: 1.4em;
+	height: 0.125em;
 	background-color: var(--my-secondary-color);
 	transform: scaleX(0);
 	transform-origin: center;
