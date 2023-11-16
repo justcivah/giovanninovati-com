@@ -15,10 +15,10 @@ function printNavbar() {
             <div class="col-12 col-sm-6">
                 <div class="row justify-content-center justify-content-sm-end">
                     <div class="col-auto">
-                        <a class="user-select-none my-link my-navbar-text" href="http://localhost:5500/about/about.html">About</a>
+                        <a class="user-select-none my-link my-navbar-text" href="http://localhost:5500/about.html">About</a>
                     </div>
                     <div class="col-auto">
-                        <a class="user-select-none my-link my-navbar-text" href="http://localhost:5500/blog/blog.html">Blog</a>
+                        <a class="user-select-none my-link my-navbar-text" href="http://localhost:5500/blog.html">Blog</a>
                     </div>
                     <div class="col-auto">
                         <a id="contact-email" class="user-select-none my-link my-navbar-text">Contacts</a>
