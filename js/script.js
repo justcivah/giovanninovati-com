@@ -10,7 +10,7 @@ function printNavbar() {
     document.getElementById('navbar').innerHTML = `
         <div class="row gy-2">
             <div class="col-12 col-sm-6 text-center text-sm-start">
-                <a class="user-select-none text-decoration-none my-link my-navbar-text" href="#">Giovanni Novati</a>
+                <a class="user-select-none text-decoration-none my-link my-navbar-text" href="http://localhost:5500">Giovanni Novati</a>
             </div>
             <div class="col-12 col-sm-6">
                 <div class="row justify-content-center justify-content-sm-end">
