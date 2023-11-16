@@ -24,6 +24,17 @@ body {
 	background-color: var(--my-primary-color);
 }
 
+.my-page {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.my-centered-parent-div {
+	height: 100vh;
+	display: flex;
+}
+
 .my-navbar {
 	background-color: var(--my-primary-color);;
 	margin-top: 2em;
