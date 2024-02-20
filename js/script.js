@@ -10,15 +10,15 @@ function printNavbar() {
     document.getElementById('navbar').innerHTML = `
         <div class="row gy-2">
             <div class="col-12 col-sm-6 text-center text-sm-start">
-                <a class="user-select-none text-decoration-none my-link my-navbar-text" href="http://localhost:5500">Giovanni Novati</a>
+                <a class="user-select-none text-decoration-none my-link my-navbar-text" href="https://www.giovanninovati.com">Giovanni Novati</a>
             </div>
             <div class="col-12 col-sm-6">
                 <div class="row justify-content-center justify-content-sm-end">
                     <div class="col-auto">
-                        <a class="user-select-none my-link my-navbar-text" href="http://localhost:5500/about.html">About</a>
+                        <a class="user-select-none my-link my-navbar-text" href="https://www.giovanninovati.com/about.html">About</a>
                     </div>
                     <div class="col-auto">
-                        <a class="user-select-none my-link my-navbar-text" href="http://localhost:5500/blog.html">Blog</a>
+                        <a class="user-select-none my-link my-navbar-text" href="https://www.giovanninovati.com/blog.html">Blog</a>
                     </div>
                     <div class="col-auto">
                         <a id="contact-email" class="user-select-none my-link my-navbar-text">Contacts</a>
